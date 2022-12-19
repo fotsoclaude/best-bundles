@@ -1,0 +1,290 @@
+{
+    "Hemle Jour 99": {
+        "sms": 0,
+        "call": 750,
+        "data": 0,
+        "validity": 1,
+        "price": 99,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Hemle Jour 149": {
+        "sms": 0,
+        "call": 1460,
+        "data": 0,
+        "validity": 1,
+        "price": 149,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Hemle Jour 199": {
+        "sms": 0,
+        "call": 1950,
+        "data": 0,
+        "validity": 1,
+        "price": 199,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Hemle Jour 249 ": {
+        "sms": 50,
+        "call": 3500,
+        "data": 0,
+        "validity": 1,
+        "price": 99,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Semaine 499": {
+        "sms": 0,
+        "call": 3800,
+        "data": 0,
+        "validity": 7,
+        "price": 499,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Hemle Semaine 999": {
+        "sms": 0,
+        "call": 7950,
+        "data": 0,
+        "validity": 7,
+        "price": 999,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Hemle Semaine 1500": {
+        "sms": 50,
+        "call": 12200,
+        "data": 0,
+        "validity": 7,
+        "price": 1500,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Mois 2999": {
+        "sms": 0,
+        "call": 23390,
+        "data": 0,
+        "validity": 30,
+        "price": 2999,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Hemle Net 3J": {
+        "sms": 0,
+        "call": 0,
+        "data": 160,
+        "validity": 3,
+        "price": 160,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Hemle Net 599": {
+        "sms": 0,
+        "call": 0,
+        "data": 660,
+        "validity": 30,
+        "price": 599,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Hemle Net 849": {
+        "sms": 0,
+        "call": 0,
+        "data": 1000,
+        "validity": 30,
+        "price": 1500,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Hemle Net 949": {
+        "sms": 0,
+        "call": 0,
+        "data": 1770,
+        "validity": 30,
+        "price": 949,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Hemle Appels 100": {
+        "sms": 20,
+        "call": 300,
+        "data": 0,
+        "validity": 1,
+        "price": 100,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Appels J 250": {
+        "sms": 20,
+        "call": 750,
+        "data": 0,
+        "validity": 1,
+        "price": 250,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Appels S 300": {
+        "sms": 30,
+        "call": 900,
+        "data": 0,
+        "validity": 7,
+        "price": 300,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Appels M 600": {
+        "sms": 50,
+        "call": 1800,
+        "data": 0,
+        "validity": 30,
+        "price": 600,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Appels M 26k": {
+        "sms": 500,
+        "call": 96000,
+        "data": 0,
+        "validity": 30,
+        "price": 26000,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Illimite J": {
+        "sms": 150,
+        "call": 0,
+        "data": 0,
+        "validity": 1,
+        "price": 20,
+        "priorities": {
+            "sms": 1,
+            "call": 0,
+            "data": 0
+        }
+    },
+    "Hemle Illimite M": {
+        "sms": 9000,
+        "call": 0,
+        "data": 0,
+        "validity": 30,
+        "price": 500,
+        "priorities": {
+            "sms": 1,
+            "call": 0,
+            "data": 0
+        }
+    },
+    "Hemle Comp S 1000": {
+        "sms": 100,
+        "call": 3000,
+        "data": 75,
+        "validity": 7,
+        "price": 1000,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Hemle Comp S 2500": {
+        "sms": 100,
+        "call": 8500,
+        "data": 250,
+        "validity": 7,
+        "price": 1500,
+        "priorities": {
+            "call": 1,
+            "data": 2,
+            "sms": 3
+        }
+    },
+    "Hemle Comp M 3000": {
+        "sms": 250,
+        "call": 9000,
+        "data": 250,
+        "validity": 30,
+        "price": 3000,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 2
+        }
+    },
+    "Hemle Comp M 5000": {
+        "sms": 500,
+        "call": 17000,
+        "data": 500,
+        "validity": 30,
+        "price": 5000,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 2
+        }
+    },
+    "Hemle Comp M 10000": {
+        "sms": 500,
+        "call": 35000,
+        "data": 1000,
+        "validity": 30,
+        "price": 10000,
+        "priorities": {
+            "call": 1,
+            "data": 2,
+            "sms": 3
+        }
+    }
+}

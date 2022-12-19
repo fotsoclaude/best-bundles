@@ -1,0 +1,254 @@
+{
+    "Mango Plenty J": {
+        "sms": 25,
+        "call": 0,
+        "data": 0,
+        "validity": 1,
+        "price": 100,
+        "priorities": {
+            "sms": 1,
+            "call": 0,
+            "data": 0
+        }
+    },
+    "Mango Plenty S": {
+        "sms": 1000,
+        "call": 1460,
+        "data": 0,
+        "validity": 7,
+        "price": 250,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Mango Plenty M": {
+        "sms": 10000,
+        "call": 1950,
+        "data": 0,
+        "validity": "30  jours",
+        "price": 450,
+        "priorities": {
+            "sms": 1,
+            "call": 2,
+            "data": 3
+        }
+    },
+    "Mango Giga 3J 1200": {
+        "sms": 0,
+        "call": 0,
+        "data": 1000,
+        "validity": "3  jours",
+        "price": 1200,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Giga 3J 5400": {
+        "sms": 0,
+        "call": 0,
+        "data": 4000,
+        "validity": "3  jours",
+        "price": 5400,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Giga 7J 2650": {
+        "sms": 0,
+        "call": 0,
+        "data": 7000,
+        "validity": "7  jours",
+        "price": 2650,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Giga 7J 5400": {
+        "sms": 0,
+        "call": 0,
+        "data": 14000,
+        "validity": "7  jours",
+        "price": 5600,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Giga 7J 15400": {
+        "sms": 0,
+        "call": 0,
+        "data": 35000,
+        "validity": "7  jours",
+        "price": 15400,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Giga 30J 10000": {
+        "sms": 0,
+        "call": 0,
+        "data": 30000,
+        "validity": "30  jours",
+        "price": 10000,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Giga 30J 21500": {
+        "sms": 0,
+        "call": 0,
+        "data": 60000,
+        "validity": "30  jours",
+        "price": 21500,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango Flex 300-1": {
+        "sms": 100,
+        "call": 1300,
+        "data": 30,
+        "validity": "7  jours",
+        "price": 300,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Mango Flex 300-2": {
+        "sms": 100,
+        "call": 1500,
+        "data": 0,
+        "validity": "7  jours",
+        "price": 300,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Mango Flex 300-3": {
+        "sms": 100,
+        "call": 1400,
+        "data": 25,
+        "validity": "7  jours",
+        "price": 300,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Mango Flex 300-4": {
+        "sms": 100,
+        "call": 1200,
+        "data": 0,
+        "validity": "7  jours",
+        "price": 300,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Mango PS combo": {
+        "sms": 10000,
+        "call": 15000,
+        "data": 6000,
+        "validity": "30  jours",
+        "price": 5000,
+        "priorities": {
+            "call": 1,
+            "sms": 2,
+            "data": 3
+        }
+    },
+    "Mango PS 2100": {
+        "sms": 0,
+        "call": 0,
+        "data": 4500,
+        "validity": "30  jours",
+        "price": 2100,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango PS talk": {
+        "sms": 0,
+        "call": 10000,
+        "data": 0,
+        "validity": "30  jours",
+        "price": 1000,
+        "priorities": {
+            "call": 1,
+            "sms": 0,
+            "data": 0
+        }
+    },
+    "Mango PS 1200": {
+        "sms": 0,
+        "call": 0,
+        "data": 2200,
+        "validity": "30  jours",
+        "price": 1200,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango PS 500": {
+        "sms": 0,
+        "call": 0,
+        "data": 900,
+        "validity": "30  jours",
+        "price": 500,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    },
+    "Mango PS 400": {
+        "sms": 10000,
+        "call": 0,
+        "data": 0,
+        "validity": "30  jours",
+        "price": 400,
+        "priorities": {
+            "sms": 1,
+            "call": 0,
+            "data": 0
+        }
+    },
+    "Mango PS 50": {
+        "sms": 0,
+        "call": 0,
+        "data": 50,
+        "validity": 1,
+        "price": 5000,
+        "priorities": {
+            "data": 1,
+            "sms": 0,
+            "call": 0
+        }
+    }
+}
