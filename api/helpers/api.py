@@ -231,11 +231,19 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
                                                cache=cache, validity=validity)
 
 
+def best_bundle_in_mango(amount, sms=0, call=0, data=0, validity=1, cache=None):
+    return best_bundle_in_operator(amount, sms, call, data, validity, cache, file=mango_file)
+
+
+def best_bundle_in_hemle(amount, sms=0, call=0, data=0, validity=1, cache=None):
+    return best_bundle_in_operator(amount, sms, call, data, validity, cache, file=hemle_file)
+
+
 if __name__ == "__main__":
     set_logging()
     # load_file()
-    mango = best_bundle_in_operator(amount=1000, sms=1, data=2, call=3, validity=7, file=mango_file)
-    hemle = best_bundle_in_operator(amount=1000, sms=0, data=1, call=2, validity=7, file=hemle_file)
+    mango = best_bundle_in_mango(amount=1000, sms=1, data=2, call=3, validity=7)
+    hemle = best_bundle_in_hemle(amount=1000, sms=0, data=1, call=2, validity=7)
     for name, bundle in mango.items():
         print(
             f"Nom: {name} - Prix: {bundle['amount']} - Datas: {bundle['data']} - SMS: {bundle['sms']} - Call: {bundle['call']}")
