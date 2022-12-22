@@ -1,47 +1,5 @@
-2022-12-19 05:45:24,419 - INFO - Empty bundle file created.
-2022-12-19 05:45:24,421 - INFO - Bundle Hemle Jour 99 of Hemle Forfaits saved.
-2022-12-19 05:45:24,422 - INFO - Bundle Hemle Jour 149 of Hemle Forfaits saved.
-2022-12-19 05:45:24,423 - INFO - Bundle Hemle Jour 199 of Hemle Forfaits saved.
-2022-12-19 05:45:24,424 - INFO - Bundle Hemle Jour 249  of Hemle Forfaits saved.
-2022-12-19 05:45:24,425 - INFO - Bundle Hemle Semaine 499 of Hemle Forfaits saved.
-2022-12-19 05:45:24,426 - INFO - Bundle Hemle Semaine 999 of Hemle Forfaits saved.
-2022-12-19 05:45:24,427 - INFO - Bundle Hemle Semaine 1500 of Hemle Forfaits saved.
-2022-12-19 05:45:24,428 - INFO - Bundle Hemle Mois 2999 of Hemle Forfaits saved.
-2022-12-19 05:45:24,429 - INFO - Bundle Hemle Net 3J of Hemle Forfaits saved.
-2022-12-19 05:45:24,430 - INFO - Bundle Hemle Net 599 of Hemle Forfaits saved.
-2022-12-19 05:45:24,431 - INFO - Bundle Hemle Net 849 of Hemle Forfaits saved.
-2022-12-19 05:45:24,432 - INFO - Bundle Hemle Net 949 of Hemle Forfaits saved.
-2022-12-19 05:45:24,433 - INFO - Bundle Hemle Appels 100 of Hemle Forfaits saved.
-2022-12-19 05:45:24,434 - INFO - Bundle Hemle Appels J 250 of Hemle Forfaits saved.
-2022-12-19 05:45:24,435 - INFO - Bundle Hemle Appels S 300 of Hemle Forfaits saved.
-2022-12-19 05:45:24,435 - INFO - Bundle Hemle Appels M 600 of Hemle Forfaits saved.
-2022-12-19 05:45:24,436 - INFO - Bundle Hemle Appels M 26k of Hemle Forfaits saved.
-2022-12-19 05:45:24,438 - INFO - Bundle Hemle Illimite J of Hemle Forfaits saved.
-2022-12-19 05:45:24,439 - INFO - Bundle Hemle Illimite M of Hemle Forfaits saved.
-2022-12-19 05:45:24,440 - INFO - Bundle Hemle Comp S 1000 of Hemle Forfaits saved.
-2022-12-19 05:45:24,441 - INFO - Bundle Hemle Comp S 2500 of Hemle Forfaits saved.
-2022-12-19 05:45:24,442 - INFO - Bundle Hemle Comp M 3000 of Hemle Forfaits saved.
-2022-12-19 05:45:24,443 - INFO - Bundle Hemle Comp M 5000 of Hemle Forfaits saved.
-2022-12-19 05:45:24,444 - INFO - Bundle Hemle Comp M 10000 of Hemle Forfaits saved.
-2022-12-19 05:45:24,445 - INFO - Empty bundle file created.
-2022-12-19 05:45:24,446 - INFO - Bundle Mango Plenty J of Mango Forfaits saved.
-2022-12-19 05:45:24,446 - INFO - Bundle Mango Plenty S of Mango Forfaits saved.
-2022-12-19 05:45:24,447 - INFO - Bundle Mango Plenty M of Mango Forfaits saved.
-2022-12-19 05:45:24,447 - INFO - Bundle Mango Giga 3J 1200 of Mango Forfaits saved.
-2022-12-19 05:45:24,448 - INFO - Bundle Mango Giga 3J 5400 of Mango Forfaits saved.
-2022-12-19 05:45:24,448 - INFO - Bundle Mango Giga 7J 2650 of Mango Forfaits saved.
-2022-12-19 05:45:24,449 - INFO - Bundle Mango Giga 7J 5400 of Mango Forfaits saved.
-2022-12-19 05:45:24,450 - INFO - Bundle Mango Giga 7J 15400 of Mango Forfaits saved.
-2022-12-19 05:45:24,450 - INFO - Bundle Mango Giga 30J 10000 of Mango Forfaits saved.
-2022-12-19 05:45:24,451 - INFO - Bundle Mango Giga 30J 21500 of Mango Forfaits saved.
-2022-12-19 05:45:24,452 - INFO - Bundle Mango Flex 300-1 of Mango Forfaits saved.
-2022-12-19 05:45:24,453 - INFO - Bundle Mango Flex 300-2 of Mango Forfaits saved.
-2022-12-19 05:45:24,453 - INFO - Bundle Mango Flex 300-3 of Mango Forfaits saved.
-2022-12-19 05:45:24,455 - INFO - Bundle Mango Flex 300-4 of Mango Forfaits saved.
-2022-12-19 05:45:24,456 - INFO - Bundle Mango PS combo of Mango Forfaits saved.
-2022-12-19 05:45:24,457 - INFO - Bundle Mango PS 2100 of Mango Forfaits saved.
-2022-12-19 05:45:24,458 - INFO - Bundle Mango PS talk of Mango Forfaits saved.
-2022-12-19 05:45:24,459 - INFO - Bundle Mango PS 1200 of Mango Forfaits saved.
-2022-12-19 05:45:24,459 - INFO - Bundle Mango PS 500 of Mango Forfaits saved.
-2022-12-19 05:45:24,460 - INFO - Bundle Mango PS 400 of Mango Forfaits saved.
-2022-12-19 05:45:24,461 - INFO - Bundle Mango PS 50 of Mango Forfaits saved.
+2022-12-23 00:42:58,271 - INFO - Amount remaining - 550
+2022-12-23 00:42:58,272 - INFO - Amount remaining - 50
+2022-12-23 00:42:58,272 - INFO - Le(s) meilleur(s) forfait(s): {'Mango Plenty M': {'sms': 10000, 'call': 1950, 'data': 0, 'validity': 30, 'amount': 450, 'priorities': {'sms': 1, 'call': 2, 'data': 0}}, 'Mango PS 500': {'sms': 0, 'call': 0, 'data': 900, 'validity': 30, 'amount': 500, 'priorities': {'data': 1, 'sms': 0, 'call': 0}}}
+2022-12-23 00:42:58,272 - INFO - Amount remaining - 401
+2022-12-23 00:42:58,273 - INFO - Le(s) meilleur(s) forfait(s): {'Hemle Net 599': {'sms': 0, 'call': 0, 'data': 660, 'validity': 30, 'amount': 599, 'priorities': {'data': 1, 'sms': 0, 'call': 0}}, 'Hemle Appels S 300': {'sms': 30, 'call': 900, 'data': 0, 'validity': 7, 'amount': 300, 'priorities': {'call': 1, 'sms': 2, 'data': 0}}}

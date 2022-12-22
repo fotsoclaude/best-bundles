@@ -4,5 +4,5 @@ from .views import *
 
 urlpatterns = [
     path('datas/', load_datas),
-    path('choices/', UserChoiseAPI.as_view())
+    path('choices/', get_choice)
 ]
