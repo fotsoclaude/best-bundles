@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from api.helpers.api import load_file, best_bundle_in_mango, best_bundle_in_hemle
+from api.helpers.api import load_file, best_bundle_in_mango, best_bundle_in_hemle, set_logging
 from .models import UserChoices
 from .serializer import UserChoicesSerializer
 

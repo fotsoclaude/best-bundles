@@ -7,9 +7,6 @@ import shutil
 BASE_DIR = Path(__file__).resolve().parent.parent
 STORAGE_DIR = BASE_DIR / "storage"
 
-mango_file = 'mango_forfaits.json'
-hemle_file = 'hemle_forfaits.json'
-
 
 def set_logging():
     logging.basicConfig(level=logging.INFO,
@@ -170,7 +167,7 @@ def set_user_priorities(datas):
     return datas
 
 
-# Retourne la liste des meilleurs forfaits
+# Retourne la liste des meilleurs forfaits pour un opérateur
 def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=None, file=''):
     if cache is None:
         cache = {}
@@ -232,15 +229,16 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
 
 
 def best_bundle_in_mango(amount, sms=0, call=0, data=0, validity=1, cache=None):
-    return best_bundle_in_operator(amount, sms, call, data, validity, cache, file=mango_file)
+    set_logging()
+    return best_bundle_in_operator(amount, sms, call, data, validity, cache, file='mango_forfaits.json')
 
 
 def best_bundle_in_hemle(amount, sms=0, call=0, data=0, validity=1, cache=None):
-    return best_bundle_in_operator(amount, sms, call, data, validity, cache, file=hemle_file)
+    set_logging()
+    return best_bundle_in_operator(amount, sms, call, data, validity, cache, file='hemle_forfaits.json')
 
 
 if __name__ == "__main__":
-    set_logging()
     # load_file()
     mango = best_bundle_in_mango(amount=1000, sms=1, data=2, call=3, validity=7)
     hemle = best_bundle_in_hemle(amount=1000, sms=0, data=1, call=2, validity=7)
