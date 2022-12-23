@@ -3,7 +3,7 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from api.helpers.api import load_file
+from api.helpers.api import load_file, best_bundle_in_mango, best_bundle_in_hemle
 from .models import UserChoices
 from .serializer import UserChoicesSerializer
 
@@ -18,4 +18,6 @@ def load_datas(request):
 def get_choice(request):
     serializer = UserChoicesSerializer(data=request.data)
     serializer.is_valid(raise_exception=True)
-    return Response(serializer.data, status=status.HTTP_201_CREATED)
+    mango_bundles = best_bundle_in_mango(**serializer.data)
+    hemle_bundles = best_bundle_in_hemle(**serializer.data)
+    return Response({'Mango': mango_bundles, 'Hemle': hemle_bundles}, status=status.HTTP_201_CREATED)

@@ -7,7 +7,7 @@ class UserChoicesSerializer(serializers.ModelSerializer):
     amount = serializers.IntegerField()
     sms = serializers.IntegerField()
     call = serializers.IntegerField()
-    datas = serializers.IntegerField()
+    data = serializers.IntegerField()
     validity = serializers.IntegerField()
 
     class Meta:
@@ -17,7 +17,7 @@ class UserChoicesSerializer(serializers.ModelSerializer):
             'amount': {'required': True, },
             'sms': {'required': True, },
             'call': {'required': True, },
-            'datas': {'required': True, },
+            'data': {'required': True, },
             'validity': {'required': True, },
         }
 
