@@ -1,5 +1,6 @@
-2022-12-23 00:52:14,347 - INFO - Amount remaining - 550
-2022-12-23 00:52:14,347 - INFO - Amount remaining - 50
-2022-12-23 00:52:14,348 - INFO - Le(s) meilleur(s) forfait(s): {'Mango Plenty M': {'sms': 10000, 'call': 1950, 'data': 0, 'validity': 30, 'amount': 450, 'priorities': {'sms': 1, 'call': 2, 'data': 0}}, 'Mango PS 500': {'sms': 0, 'call': 0, 'data': 900, 'validity': 30, 'amount': 500, 'priorities': {'data': 1, 'sms': 0, 'call': 0}}}
-2022-12-23 00:52:14,348 - INFO - Amount remaining - 401
-2022-12-23 00:52:14,348 - INFO - Le(s) meilleur(s) forfait(s): {'Hemle Net 599': {'sms': 0, 'call': 0, 'data': 660, 'validity': 30, 'amount': 599, 'priorities': {'data': 1, 'sms': 0, 'call': 0}}, 'Hemle Appels S 300': {'sms': 30, 'call': 900, 'data': 0, 'validity': 7, 'amount': 300, 'priorities': {'call': 1, 'sms': 2, 'data': 0}}}
+2022-12-23 14:35:31,459 - INFO - Amount remaining - 550
+2022-12-23 14:35:31,460 - INFO - Amount remaining - 50
+2022-12-23 14:35:31,460 - INFO - Le(s) meilleur(s) forfait(s): {'Mango Plenty M': {'sms': 10000, 'call': 1950, 'data': 0, 'validity': 30, 'amount': 450, 'priorities': {'sms': 1, 'call': 2, 'data': 0}}, 'Mango PS 500': {'sms': 0, 'call': 0, 'data': 900, 'validity': 30, 'amount': 500, 'priorities': {'data': 1, 'sms': 0, 'call': 0}}}
+2022-12-23 14:35:31,460 - INFO - Amount remaining - 500
+2022-12-23 14:35:31,461 - INFO - Amount remaining - 1
+2022-12-23 14:35:31,461 - INFO - Le(s) meilleur(s) forfait(s): {'Hemle Illimite M': {'sms': 9000, 'call': 0, 'data': 0, 'validity': 30, 'amount': 500, 'priorities': {'sms': 1, 'call': 0, 'data': 0}}, 'Hemle Semaine 499': {'sms': 0, 'call': 3800, 'data': 0, 'validity': 7, 'amount': 499, 'priorities': {'call': 1, 'sms': 0, 'data': 0}}}

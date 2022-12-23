@@ -158,7 +158,6 @@ def set_user_priorities(datas):
     # diviser toutes les priorités par la priorité max
     for k, v in datas.items():
         maximum = v
-        break
 
     for k, v in datas.items():
         datas[k] = int(v / maximum)
@@ -241,7 +240,7 @@ def best_bundle_in_hemle(amount, sms=0, call=0, data=0, validity=1, cache=None):
 if __name__ == "__main__":
     # load_file()
     mango = best_bundle_in_mango(amount=1000, sms=1, data=2, call=3, validity=7)
-    hemle = best_bundle_in_hemle(amount=1000, sms=0, data=1, call=2, validity=7)
+    hemle = best_bundle_in_hemle(amount=1000, sms=3, data=3, call=3, validity=7)
     for name, bundle in mango.items():
         print(
             f"Nom: {name} - Prix: {bundle['amount']} - Datas: {bundle['data']} - SMS: {bundle['sms']} - Call: {bundle['call']}")
