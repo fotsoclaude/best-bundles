@@ -16,6 +16,15 @@ def set_logging():
 
 
 def dict_sort_by_value(datas, reverse=False):
+    """Retourne un dictionnaire trié par valeur
+
+    Args:
+        datas (dict): dictionnaire à trier
+        reverse (bool, optional): Trier par valeur décroissante. Defaults to False.
+
+    Returns:
+        dict: Dictionnaire trié par valeur
+    """
     return dict(sorted(datas.items(), key=lambda item: item[1], reverse=reverse))
 
 
@@ -73,7 +82,6 @@ def load_file(excel_file=BASE_DIR / 'helpers' / 'test.xlsx'):
 
         for i in range(2, row_count + 1):
             bundle = {}
-            maximum = 0
             for j in range(1, column_count + 1):
                 data = sheet.cell(row=i, column=j).value
 
@@ -138,6 +146,16 @@ def load_file(excel_file=BASE_DIR / 'helpers' / 'test.xlsx'):
 
 
 def bundles_in_operator(operator_file, amount=1000000000, validity=1):
+    """Retourne la liste des forfaits dans un opérateur
+
+    Args:
+        operator_file (str): nom du fichier json contenant les enregistrements
+        amount (int, optional): Montant de l'utilisateur. Defaults to 1000000000.
+        validity (int, optional): Validité souhaitée. Defaults to 1.
+
+    Returns:
+        dict: <str:nom du forfait, dict: items du forfait>
+    """
     available_bundles = {}
     with open(STORAGE_DIR / operator_file, "r") as f:
         bundles = json.load(f)
@@ -171,6 +189,7 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
     if cache is None:
         cache = {}
     logging.debug(f"Cache - {cache}")
+    # Si on n'a plus d'item à maximiser, on retoruner la liste des forfaits
     if sms == 0 and call == 0 and data == 0:
         return cache
     else:
@@ -178,10 +197,10 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
         user_priorities = {'sms': sms, 'call': call, 'data': data}
         user_priorities = set_user_priorities(user_priorities)
 
-        # Get the available bundles to the user's amount
+        # Get the available bundles for the user's amount
         bundles = bundles_in_operator(file, amount, validity)
 
-        # Filtrer la liste des forfaits pour garder ceux ayant la même priorité 1 que les choix de l'utilisateur
+        # Filtrer la liste des forfaits pour garder ceux maximisant l'item max dans la listeles choix de l'utilisateur
         can_do_bundles = tops = top = {}
         for k, v in user_priorities.items():
             for name, bundle in bundles.items():
@@ -194,6 +213,7 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
 
         tops = dict(sorted(tops.items(), key=lambda item: item[1], reverse=True))
         logging.debug(f"Tops - {can_do_bundles}")
+
         # Si on a une priorité dans la liste des priorités on ajoute le forfait et on retourne l'ensemble des forfaits
         # Si non, on cherche d'autres forfaits maximisant le reste des priorités
         top_name = ""
@@ -202,15 +222,13 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
             top[name] = bundle
             cache[top_name] = bundles[top_name]
             break
-        # S'il veut maximiser un seul aspet du forfait, on lui le retourne LE forfait qui maximise son argent
+        # Si c'est le dernier item à maximiser, on retourne la liste des forfaits.
         if len(user_priorities.keys()) == 1:
             logging.info(f"Le(s) meilleur(s) forfait(s): {cache}")
             return cache
         else:
             # On récupère les prioritées restantes.
             new_user_priorities = user_priorities.copy()
-            top_bundle = bundles[top_name]
-            bundle_priorities = top_bundle['priorities']
             prio_to_del = []
             for prio, prio_val in new_user_priorities.items():
                 if prio_val == 1:
@@ -220,9 +238,10 @@ def best_bundle_in_operator(amount, sms=0, call=0, data=0, validity=1, cache=Non
                 del new_user_priorities[prio]
             logging.debug(f"Remaining prios - {new_user_priorities}")
 
+            # On rappelle la fonction avec ces priorités en décrémentant le montant de l'utilisateur
             for prio in new_user_priorities.values():
                 amount = amount - bundles[top_name]['amount']
-                logging.info(f"Amount remaining - {amount}")
+                logging.info(f"Remaining Amount - {amount}")
                 return best_bundle_in_operator(amount=amount, **new_user_priorities, file=file,
                                                cache=cache, validity=validity)
 
